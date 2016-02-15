@@ -6,10 +6,31 @@ compiler:
   - clang
 
 before_script:
-  - sudo bash ./install-llvm-37-from-repos.sh
+  - sudo bash ./ci/install-llvm-37-from-repos.sh
 
 script:
     - $CXX --version
+    - llvm-config.exe --version
+    - llvm-config.exe --prefix
+    - llvm-config.exe --src-root
+    - llvm-config.exe --obj-root
+    - llvm-config.exe --bindir
+    - llvm-config.exe --includedir
+    - llvm-config.exe --libdir
+    - llvm-config.exe --cppflags
+    - llvm-config.exe --cflags
+    - llvm-config.exe --cxxflags
+    - llvm-config.exe --ldflags
+    - llvm-config.exe --system-libs
+    - llvm-config.exe --system-libs
+    - llvm-config.exe --libs
+    - llvm-config.exe --libnames
+    - llvm-config.exe --libfiles
+    - llvm-config.exe --components
+    - llvm-config.exe --targets-built
+    - llvm-config.exe --host-target
+    - llvm-config.exe --build-mode
+    - llvm-config.exe --assertion-mode
 
 
 
