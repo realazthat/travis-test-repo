@@ -11,27 +11,27 @@ before_script:
 script:
     - ls /usr/bin
     - $CXX --version
-    - llvm-config.exe --version
-    - llvm-config.exe --prefix
-    - llvm-config.exe --src-root
-    - llvm-config.exe --obj-root
-    - llvm-config.exe --bindir
-    - llvm-config.exe --includedir
-    - llvm-config.exe --libdir
-    - llvm-config.exe --cppflags
-    - llvm-config.exe --cflags
-    - llvm-config.exe --cxxflags
-    - llvm-config.exe --ldflags
-    - llvm-config.exe --system-libs
-    - llvm-config.exe --system-libs
-    - llvm-config.exe --libs
-    - llvm-config.exe --libnames
-    - llvm-config.exe --libfiles
-    - llvm-config.exe --components
-    - llvm-config.exe --targets-built
-    - llvm-config.exe --host-target
-    - llvm-config.exe --build-mode
-    - llvm-config.exe --assertion-mode
+    - llvm-config --version
+    - llvm-config --prefix
+    - llvm-config --src-root
+    - llvm-config --obj-root
+    - llvm-config --bindir
+    - llvm-config --includedir
+    - llvm-config --libdir
+    - llvm-config --cppflags
+    - llvm-config --cflags
+    - llvm-config --cxxflags
+    - llvm-config --ldflags
+    - llvm-config --system-libs
+    - llvm-config --system-libs
+    - llvm-config --libs
+    - llvm-config --libnames
+    - llvm-config --libfiles
+    - llvm-config --components
+    - llvm-config --targets-built
+    - llvm-config --host-target
+    - llvm-config --build-mode
+    - llvm-config --assertion-mode
 
 
 
