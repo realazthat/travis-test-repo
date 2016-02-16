@@ -7,6 +7,7 @@ compiler:
 
 before_script:
   - sudo bash ./ci/install-llvm-37-from-repos.sh
+  - if [ "$CXX" = "clang++" ]; then export CXX="clang++-3.7" CC="clang-3.7"; fi
 
 script:
     - ls /usr/bin
