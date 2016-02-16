@@ -11,6 +11,9 @@ before_script:
 
 script:
     - ls /usr/bin
+    - echo $CXX
+    - which clang++
+    - which $CXX
     - $CXX --version
     - llvm-config --version
     - llvm-config --prefix
