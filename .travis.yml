@@ -9,6 +9,7 @@ before_script:
   - sudo bash ./ci/install-llvm-37-from-repos.sh
 
 script:
+    - ls /usr/bin
     - $CXX --version
     - llvm-config.exe --version
     - llvm-config.exe --prefix
