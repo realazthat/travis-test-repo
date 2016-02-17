@@ -13,10 +13,11 @@ addons:
     packages:
 
 install:
-    
+    - sudo apt-get remove --auto-remove clang
 
 script:
-    - $CXX --version
-
+  - $CXX --version
+  - ls /bin
+  - ls /usr/bin
 
 
