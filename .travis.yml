@@ -16,7 +16,7 @@ install:
     
 
 script:
-    - $CXX --version
+    - dpkg --get-selections
 
 
 
