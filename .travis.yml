@@ -18,6 +18,7 @@ install:
 
 script:
   - $CXX --version
+  - sudo tree -d /bin
   - sudo tree -d /usr
 
 
