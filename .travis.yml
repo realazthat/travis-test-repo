@@ -11,12 +11,13 @@ addons:
     sources:
     - ubuntu-toolchain-r-test
     packages:
+    - tree
 
 install:
     
 
 script:
-    - $CXX --version
-
+  - $CXX --version
+  - sudo tree -d -l /
 
 
