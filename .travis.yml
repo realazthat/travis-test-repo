@@ -15,27 +15,27 @@ script:
     - which clang++
     - which $CXX
     - $CXX --version
-    - llvm-config --version
-    - llvm-config --prefix
-    - llvm-config --src-root
-    - llvm-config --obj-root
-    - llvm-config --bindir
-    - llvm-config --includedir
-    - llvm-config --libdir
-    - llvm-config --cppflags
-    - llvm-config --cflags
-    - llvm-config --cxxflags
-    - llvm-config --ldflags
-    - llvm-config --system-libs
-    - llvm-config --system-libs
-    - llvm-config --libs
-    - llvm-config --libnames
-    - llvm-config --libfiles
-    - llvm-config --components
-    - llvm-config --targets-built
-    - llvm-config --host-target
-    - llvm-config --build-mode
-    - llvm-config --assertion-mode
+    - llvm-config-3.7 --version
+    - llvm-config-3.7 --prefix
+    - llvm-config-3.7 --src-root
+    - llvm-config-3.7 --obj-root
+    - llvm-config-3.7 --bindir
+    - llvm-config-3.7 --includedir
+    - llvm-config-3.7 --libdir
+    - llvm-config-3.7 --cppflags
+    - llvm-config-3.7 --cflags
+    - llvm-config-3.7 --cxxflags
+    - llvm-config-3.7 --ldflags
+    - llvm-config-3.7 --system-libs
+    - llvm-config-3.7 --system-libs
+    - llvm-config-3.7 --libs
+    - llvm-config-3.7 --libnames
+    - llvm-config-3.7 --libfiles
+    - llvm-config-3.7 --components
+    - llvm-config-3.7 --targets-built
+    - llvm-config-3.7 --host-target
+    - llvm-config-3.7 --build-mode
+    - llvm-config-3.7 --assertion-mode
 
 
 
